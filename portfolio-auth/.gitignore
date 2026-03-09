@@ -22,3 +22,21 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+
+# Node modules
+node_modules/
+
+# Environment variables
+.env
+
+# Prisma client generated files
+node_modules/.prisma
+prisma/migrations
+
+# Build outputs
+dist/
+build/
+
+# IDE files
+.vscode/
+.idea/
